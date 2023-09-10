@@ -5,6 +5,10 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
 }
 
 img {
@@ -40,6 +44,7 @@ a {
   justify-content: space-between;
   padding: 1rem;
 }
+
 ul {
   padding: 0; 
   margin: 0; 
@@ -49,6 +54,11 @@ ul {
   display: flex;
   justify-content: space-between;
   gap: 1rem; 
+}
+
+.footer {
+  background-color: #eeeeee;
+  
 
 }
 
