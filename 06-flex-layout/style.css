@@ -20,6 +20,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 8px 15px;
 }
 
 input {
@@ -65,4 +66,5 @@ ul {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  gap: 6px;
 }
