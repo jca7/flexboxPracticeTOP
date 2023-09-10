@@ -76,6 +76,8 @@ button.cancel {
 .header {
   font-weight: bold;
   font-size: 18px;
+  display: flex; 
+  justify-content: space-between;
 }
 
 .secondModal {
@@ -85,8 +87,7 @@ button.cancel {
 }
 
 .headerAndButton {
-  display: flex; 
-  justify-content: space-between;
+
 }
 
 .flexButtons {
