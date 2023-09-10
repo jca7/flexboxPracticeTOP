@@ -5,6 +5,7 @@ body {
 img {
   width: 100px;
   height: 100px;
+  border: 2px solid black;
 }
 
 .title {
@@ -28,4 +29,8 @@ img {
 .parent {
   display: flex;
   justify-content: center;
+}
+
+.text {
+  border: 2px solid black;
 }
