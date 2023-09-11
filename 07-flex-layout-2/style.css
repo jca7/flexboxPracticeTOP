@@ -20,10 +20,68 @@ body {
   width: 300px;
   background: royalblue;
   box-sizing: border-box;
+  padding: 16px; 
+  flex-shrink: 0;
+  font-size: 24px;
+
 }
 
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+}
+
+.header {
+  font-size: 32px;
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+  padding-left: 16px; 
+}
+
+
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+li, a {
+  text-decoration: none;
+  list-style-type: none;
+  color: white;
+}
+
+ul {
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.container {
+  display: flex;
+  flex: 1; 
+}
+
+body {
+  display: flex; 
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 48px;
+  gap: 32px; 
+}
+
+.card {
+  padding: 16px;
+  width: 300px;
+  flex-shrink: 0;
 }
