@@ -44,3 +44,9 @@ body {
 .info {
   max-width: 200px;
 }
+
+.card {
+  width: 100px;
+  height: 100px;
+}
+
